@@ -1,5 +1,6 @@
 {
     "values": [
-    "dungeon:load"
+    "dungeon:load",
+    "dungeon:player_stats/load_stats"
 ]
 }
