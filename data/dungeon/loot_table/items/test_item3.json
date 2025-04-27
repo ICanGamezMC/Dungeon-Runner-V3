@@ -277,6 +277,33 @@
                   }
                 ],
                 "mode": "insert"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "type": "minecraft:attack_damage",
+                      "id": "minecraft:",
+                      "amount": 420,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "type": "minecraft:attack_speed",
+                      "id": "minecraft:",
+                      "amount": 420,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                  "minecraft:attribute_modifiers": false
+                }
               }
             ],
             "conditions": []
