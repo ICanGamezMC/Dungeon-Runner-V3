@@ -13,7 +13,7 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "TEST ITEM NAME",
+                  "text": "Test Item",
                   "color": "gold",
                   "italic": false
                 },
@@ -23,7 +23,7 @@
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
-                    "text": "● DESCRIPTION hehe",
+                    "text": "● A test item",
                     "color": "gray",
                     "italic": false
                   },
@@ -51,7 +51,7 @@
                         "text": "Base Damage: ",
                         "extra": [
                           {
-                            "text": "6969696969",
+                            "text": "30",
                             "color": "white",
                             "italic": false
                           }
@@ -70,7 +70,7 @@
                         "text": "Attack Speed: ",
                         "extra": [
                           {
-                            "text": "6969696969",
+                            "text": "27",
                             "color": "white",
                             "italic": false
                           }
@@ -89,7 +89,7 @@
                         "text": "Health: ",
                         "extra": [
                           {
-                            "text": "696969696969",
+                            "text": "24",
                             "color": "white",
                             "italic": false
                           }
@@ -108,7 +108,7 @@
                         "text": "Health Regen: ",
                         "extra": [
                           {
-                            "text": "696969696969",
+                            "text": "21",
                             "color": "white",
                             "italic": false
                           }
@@ -127,7 +127,7 @@
                         "text": "Defense: ",
                         "extra": [
                           {
-                            "text": "6969696969",
+                            "text": "18",
                             "color": "white",
                             "italic": false
                           }
@@ -146,7 +146,7 @@
                         "text": "Speed: ",
                         "extra": [
                           {
-                            "text": "6969696969",
+                            "text": "15",
                             "color": "white",
                             "italic": false
                           }
@@ -165,7 +165,7 @@
                         "text": "Mana: ",
                         "extra": [
                           {
-                            "text": "6969696969",
+                            "text": "12",
                             "color": "white",
                             "italic": false
                           }
@@ -184,7 +184,7 @@
                         "text": "Mana Regen: ",
                         "extra": [
                           {
-                            "text": "6969696969",
+                            "text": "9",
                             "color": "white",
                             "italic": false
                           }
@@ -203,7 +203,7 @@
                         "text": "Luck: ",
                         "extra": [
                           {
-                            "text": "6969696969",
+                            "text": "6",
                             "color": "white",
                             "italic": false
                           }
@@ -222,7 +222,7 @@
                         "text": "Wisdom: ",
                         "extra": [
                           {
-                            "text": "6969696969",
+                            "text": "3",
                             "color": "white",
                             "italic": false
                           }
@@ -270,7 +270,7 @@
                     "italic": false
                   },
                   {
-                    "text": "RARITY TEST",
+                    "text": "Legendary",
                     "color": "gold",
                     "bold": true,
                     "italic": false
@@ -285,20 +285,20 @@
                     {
                       "type": "minecraft:movement_speed",
                       "id": "minecraft:",
-                      "amount": 420,
+                      "amount": 1.5,
                       "operation": "add_value"
                     },
                     {
                       "type": "minecraft:attack_damage",
                       "id": "minecraft:",
-                      "amount": 420,
+                      "amount": 30,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
                       "type": "minecraft:attack_speed",
                       "id": "minecraft:",
-                      "amount": 420,
+                      "amount": 27,
                       "operation": "add_value",
                       "slot": "mainhand"
                     }
@@ -314,25 +314,14 @@
               {
                 "function": "minecraft:set_custom_data",
                 "tag": {
-                  "Health": 69,
-                  "Health Regen": 69,
-                  "Defense": 69,
-                  "Mana": 69,
-                  "Mana Regen": 69,
-                  "Luck": 69,
-                  "Wisdom": 69
+                  "Health": 24,
+                  "Health Regen": 21,
+                  "Defense": 18,
+                  "Mana": 12,
+                  "Mana Regen": 9,
+                  "Luck": 6,
+                  "Wisdom": 3
                 }
-              },
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:item_model": "dungeon:custom_item/item_name",
-                  "minecraft:equippable": {
-                    "slot": "head",
-                    "model": "dungeon:armor_name"
-                  }
-                },
-                "conditions": []
               }
             ],
             "conditions": []
