@@ -283,6 +283,12 @@
                 "components": {
                   "minecraft:attribute_modifiers": [
                     {
+                      "type": "minecraft:movement_speed",
+                      "id": "minecraft:",
+                      "amount": 420,
+                      "operation": "add_value"
+                    },
+                    {
                       "type": "minecraft:attack_damage",
                       "id": "minecraft:",
                       "amount": 420,
@@ -303,6 +309,18 @@
                 "function": "minecraft:toggle_tooltips",
                 "toggles": {
                   "minecraft:attribute_modifiers": false
+                }
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "Health": 69,
+                  "Health Regen": 69,
+                  "Defense": 69,
+                  "Mana": 69,
+                  "Mana Regen": 69,
+                  "Luck": 69,
+                  "Wisdom": 69
                 }
               }
             ],

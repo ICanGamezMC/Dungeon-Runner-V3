@@ -8,3 +8,4 @@ scoreboard players set @s Wisdom 1
 scoreboard players set @s MaxHealth 100
 scoreboard players set @s MaxDefense 100
 scoreboard players set @s MaxMana 100
+
