@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick",
+          "name": "minecraft:iron_sword",
           "weight": 1,
           "quality": 1,
           "functions": [
@@ -22,42 +22,6 @@
             {
               "function": "minecraft:set_lore",
               "lore": [
-                {
-                  "text": "──",
-                  "extra": [
-                    {
-                      "text": " Stats ",
-                      "extra": [
-                        {
-                          "text": "───────",
-                          "color": "gray"
-                        }
-                      ],
-                      "color": "white"
-                    }
-                  ],
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "✦ ",
-                  "extra": [
-                    {
-                      "text": "Speed: ",
-                      "extra": [
-                        {
-                          "text": "12",
-                          "color": "white",
-                          "italic": false
-                        }
-                      ],
-                      "color": "gray",
-                      "italic": false
-                    }
-                  ],
-                  "color": "white",
-                  "italic": false
-                },
                 {
                   "text": "──────────────",
                   "color": "gray",
@@ -79,7 +43,7 @@
                   {
                     "type": "minecraft:movement_speed",
                     "id": "minecraft:",
-                    "amount": 0.12,
+                    "amount": 0,
                     "operation": "add_value"
                   },
                   {

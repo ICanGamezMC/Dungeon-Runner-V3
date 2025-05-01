@@ -1,0 +1,4 @@
+When updating check
+
+function/player_stats/max_stats  ( For nbt file changes )
+dungeon/loot_table/items ( For json file data, Make sure that it contains all the data in the file when updating)

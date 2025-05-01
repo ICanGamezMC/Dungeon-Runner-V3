@@ -6,15 +6,15 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:iron_sword",
+            "name": "minecraft:chainmail_chestplate",
             "weight": 1,
             "quality": 1,
             "functions": [
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Test Item",
-                  "color": "gold",
+                  "text": "very couul chestpalte",
+                  "color": "blue",
                   "italic": false
                 },
                 "conditions": []
@@ -22,11 +22,6 @@
               {
                 "function": "minecraft:set_lore",
                 "lore": [
-                  {
-                    "text": "● A test item",
-                    "color": "gray",
-                    "italic": false
-                  },
                   {
                     "text": "──",
                     "extra": [
@@ -45,51 +40,13 @@
                     "italic": false
                   },
                   {
-                    "text": "⚔ ",
-                    "extra": [
-                      {
-                        "text": "Base Damage: ",
-                        "extra": [
-                          {
-                            "text": "30",
-                            "color": "white",
-                            "italic": false
-                          }
-                        ],
-                        "color": "gray",
-                        "italic": false
-                      }
-                    ],
-                    "color": "yellow",
-                    "italic": false
-                  },
-                  {
-                    "text": "⚔ ",
-                    "extra": [
-                      {
-                        "text": "Attack Speed: ",
-                        "extra": [
-                          {
-                            "text": "27",
-                            "color": "white",
-                            "italic": false
-                          }
-                        ],
-                        "color": "gray",
-                        "italic": false
-                      }
-                    ],
-                    "color": "yellow",
-                    "italic": false
-                  },
-                  {
                     "text": "❤ ",
                     "extra": [
                       {
                         "text": "Health: ",
                         "extra": [
                           {
-                            "text": "24",
+                            "text": "12",
                             "color": "white",
                             "italic": false
                           }
@@ -108,7 +65,7 @@
                         "text": "Health Regen: ",
                         "extra": [
                           {
-                            "text": "21",
+                            "text": "1",
                             "color": "white",
                             "italic": false
                           }
@@ -127,7 +84,7 @@
                         "text": "Defense: ",
                         "extra": [
                           {
-                            "text": "18",
+                            "text": "30",
                             "color": "white",
                             "italic": false
                           }
@@ -140,138 +97,13 @@
                     "italic": false
                   },
                   {
-                    "text": "✦ ",
-                    "extra": [
-                      {
-                        "text": "Speed: ",
-                        "extra": [
-                          {
-                            "text": "15",
-                            "color": "white",
-                            "italic": false
-                          }
-                        ],
-                        "color": "gray",
-                        "italic": false
-                      }
-                    ],
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "text": "✎ ",
-                    "extra": [
-                      {
-                        "text": "Mana: ",
-                        "extra": [
-                          {
-                            "text": "12",
-                            "color": "white",
-                            "italic": false
-                          }
-                        ],
-                        "color": "gray",
-                        "italic": false
-                      }
-                    ],
-                    "color": "aqua",
-                    "italic": false
-                  },
-                  {
-                    "text": "✯ ",
-                    "extra": [
-                      {
-                        "text": "Mana Regen: ",
-                        "extra": [
-                          {
-                            "text": "9",
-                            "color": "white",
-                            "italic": false
-                          }
-                        ],
-                        "color": "gray",
-                        "italic": false
-                      }
-                    ],
-                    "color": "aqua",
-                    "italic": false
-                  },
-                  {
-                    "text": "♣ ",
-                    "extra": [
-                      {
-                        "text": "Luck: ",
-                        "extra": [
-                          {
-                            "text": "6",
-                            "color": "white",
-                            "italic": false
-                          }
-                        ],
-                        "color": "gray",
-                        "italic": false
-                      }
-                    ],
-                    "color": "light_purple",
-                    "italic": false
-                  },
-                  {
-                    "text": "☯ ",
-                    "extra": [
-                      {
-                        "text": "Wisdom: ",
-                        "extra": [
-                          {
-                            "text": "3",
-                            "color": "white",
-                            "italic": false
-                          }
-                        ],
-                        "color": "gray",
-                        "italic": false
-                      }
-                    ],
-                    "color": "dark_aqua",
-                    "italic": false
-                  },
-                  {
-                    "text": "✧ ",
-                    "extra": [
-                      {
-                        "text": "Prestiged",
-                        "extra": [
-                          {
-                            "text": " ✧",
-                            "color": "yellow",
-                            "italic": false
-                          }
-                        ],
-                        "color": "dark_red",
-                        "italic": false
-                      }
-                    ],
-                    "color": "yellow",
-                    "italic": false
-                  },
-                  {
                     "text": "──────────────",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "text": "INPUT LEFT CLICK TEXT",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  "",
-                  {
-                    "text": "INPUT RIGHT CLICK TEXT",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "Legendary",
-                    "color": "gold",
+                    "text": "Rare",
+                    "color": "blue",
                     "bold": true,
                     "italic": false
                   }
@@ -285,20 +117,20 @@
                     {
                       "type": "minecraft:movement_speed",
                       "id": "minecraft:",
-                      "amount": 1.5,
+                      "amount": 0,
                       "operation": "add_value"
                     },
                     {
                       "type": "minecraft:attack_damage",
                       "id": "minecraft:",
-                      "amount": 30,
+                      "amount": 0,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
                       "type": "minecraft:attack_speed",
                       "id": "minecraft:",
-                      "amount": 27,
+                      "amount": 0,
                       "operation": "add_value",
                       "slot": "mainhand"
                     }
@@ -314,13 +146,13 @@
               {
                 "function": "minecraft:set_custom_data",
                 "tag": {
-                  "Health": 24,
-                  "Health Regen": 21,
-                  "Defense": 18,
-                  "Mana": 12,
-                  "Mana Regen": 9,
-                  "Luck": 6,
-                  "Wisdom": 3
+                  "Health": 12,
+                  "Health Regen": 1,
+                  "Defense": 30,
+                  "Mana": 0,
+                  "Mana Regen": 0,
+                  "Luck": 0,
+                  "Wisdom": 0
                 }
               }
             ],

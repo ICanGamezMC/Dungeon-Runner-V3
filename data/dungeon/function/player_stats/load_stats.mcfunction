@@ -13,9 +13,7 @@ scoreboard objectives add MaxMana dummy
 scoreboard objectives add MaxHealthADD dummy
 scoreboard objectives add MaxDefenseADD dummy
 scoreboard objectives add MaxManaADD dummy
-
 scoreboard objectives add Health_RegenADD dummy
 scoreboard objectives add Mana_RegenADD dummy
-
 scoreboard objectives add LuckADD dummy
 scoreboard objectives add WisdomADD dummy
