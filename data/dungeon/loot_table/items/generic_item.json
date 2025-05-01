@@ -31,7 +31,7 @@
                   "text": "🔥Left Click:",
                   "extra": [
                     {
-                      "text": " Stunning",
+                      "text": " Assassin",
                       "color": "yellow"
                     }
                   ],
@@ -39,12 +39,12 @@
                   "italic": false
                 },
                 {
-                  "text": "● Stops mobs in their",
+                  "text": "● Get speed and",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "   track for 15 seconds",
+                  "text": "   invisibility each hit",
                   "color": "gray",
                   "italic": false
                 },
@@ -109,7 +109,7 @@
                 "minecraft:item_model": "dungeon:custom_item/generic_item",
                 "minecraft:enchantments": {
                   "levels": {
-                    "ability:stun": 1
+                    "ability:assassin": 1
                   },
                   "show_in_tooltip": false
                 },
