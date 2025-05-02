@@ -31,7 +31,7 @@
                   "text": "🔥Left Click:",
                   "extra": [
                     {
-                      "text": " Flame Sacrafice",
+                      "text": " Electric Boogaloo",
                       "color": "yellow"
                     }
                   ],
@@ -39,12 +39,12 @@
                   "italic": false
                 },
                 {
-                  "text": "● Set fire below the",
+                  "text": "● Summon lighting at a mob",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "   mob when hit",
+                  "text": "   that can chain up to 3 times",
                   "color": "gray",
                   "italic": false
                 },
@@ -109,7 +109,7 @@
                 "minecraft:item_model": "dungeon:custom_item/generic_item",
                 "minecraft:enchantments": {
                   "levels": {
-                    "ability:flame_sacrafice": 1
+                    "ability:lighting": 1
                   },
                   "show_in_tooltip": false
                 },
