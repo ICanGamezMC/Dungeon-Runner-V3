@@ -20,7 +20,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "ability:left_click/chomp_hit"
+          "function": "ability:left_click/flame_sacrafice_hit"
         },
         "enchanted": "attacker",
         "affected": "victim"

@@ -20,7 +20,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "ability:vampire_hit"
+          "function": "ability:left_click/vampire_hit"
         },
         "enchanted": "attacker",
         "affected": "attacker"

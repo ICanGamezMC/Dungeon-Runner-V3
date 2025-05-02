@@ -17,3 +17,6 @@ scoreboard objectives add Health_RegenADD dummy
 scoreboard objectives add Mana_RegenADD dummy
 scoreboard objectives add LuckADD dummy
 scoreboard objectives add WisdomADD dummy
+
+scoreboard objectives add 10 dummy
+scoreboard objectives add DamageMath dummy

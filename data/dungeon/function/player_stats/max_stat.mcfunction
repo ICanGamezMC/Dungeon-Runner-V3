@@ -8,6 +8,7 @@ scoreboard players set @s Mana_Regen 1
 scoreboard players set @s Luck 1
 scoreboard players set @s Wisdom 1
 
+
 function dungeon:player_stats/max_stats/weapons
 function dungeon:player_stats/max_stats/add
 function dungeon:player_stats/max_stats/chestplate

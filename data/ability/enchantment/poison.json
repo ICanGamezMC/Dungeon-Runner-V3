@@ -20,7 +20,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "ability:poison_hit"
+          "function": "ability:left_click/poison_hit"
         },
         "enchanted": "attacker",
         "affected": "victim"

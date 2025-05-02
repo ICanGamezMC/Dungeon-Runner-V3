@@ -2,7 +2,15 @@ say loaded Dungeon Runner
 
 
 #This is gamerule functions
-
+gamerule doFireTick false
+gamerule randomTickSpeed 0
+gamerule showDeathMessages false
+gamerule spawnRadius 0
+gamerule mobGriefing false
+gamerule keepInventory true
+gamerule doMobSpawning false
+gamerule sendCommandFeedback false
+gamerule doImmediateRespawn true
 
 #regen function
 function dungeon:player_stats/regen

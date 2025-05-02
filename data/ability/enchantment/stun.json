@@ -20,7 +20,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "ability:stun_hit"
+          "function": "ability:left_click/stun_hit"
         },
         "enchanted": "attacker",
         "affected": "victim"
