@@ -23,10 +23,57 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
+                  "text": "● test for the description",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "  new line here",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "  another",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "  ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "  space up above",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
                   "text": "──────────────",
                   "color": "gray",
                   "italic": false
                 },
+                {
+                  "text": "🔥Left Click:",
+                  "extra": [
+                    {
+                      "text": " Vampire",
+                      "color": "yellow"
+                    }
+                  ],
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "● Gain 1 health for",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "   every hit",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
                 {
                   "text": "Common",
                   "color": "white",
@@ -87,7 +134,7 @@
                 "minecraft:item_model": "dungeon:custom_item/generic_item",
                 "minecraft:enchantments": {
                   "levels": {
-                    "ability:null": 1
+                    "ability:vampire": 1
                   },
                   "show_in_tooltip": false
                 },
