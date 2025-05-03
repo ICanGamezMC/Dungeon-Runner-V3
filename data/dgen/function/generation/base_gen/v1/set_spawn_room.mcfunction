@@ -1,0 +1,1 @@
+summon marker 6 -60 6 {Tags:["starter_room","room_gen"]}
