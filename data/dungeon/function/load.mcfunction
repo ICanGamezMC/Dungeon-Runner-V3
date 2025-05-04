@@ -18,3 +18,7 @@ scoreboard objectives add Damage minecraft.custom:minecraft.damage_taken
 
 #This is rng
 scoreboard objectives add RNG1 dummy
+
+#This is for pos
+scoreboard objectives add PosX dummy
+scoreboard objectives add PosZ dummy
