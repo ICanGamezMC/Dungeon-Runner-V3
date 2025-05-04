@@ -1,1 +1,2 @@
-summon marker 6 -60 6 {Tags:["starter_room","room_gen"]}
+
+place template dgen:generation/v1/main_room 5 -60 5

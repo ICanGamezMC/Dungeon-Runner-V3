@@ -1,1 +1,1 @@
-kill @e[tag=room_gen]
+kill @e[tag=clear]

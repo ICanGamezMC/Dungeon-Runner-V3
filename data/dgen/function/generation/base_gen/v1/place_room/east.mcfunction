@@ -1,0 +1,2 @@
+execute if entity @s[scores={RNG1=1}] if block ~ ~ ~ air run place template dgen:generation/v1/small_room_east ~-1 ~ ~-1
+execute if entity @s[scores={RNG1=2}] if block ~ ~ ~ air if block ~1 ~ ~ air run place template dgen:generation/v1/long_room_east ~-1 ~ ~-1
