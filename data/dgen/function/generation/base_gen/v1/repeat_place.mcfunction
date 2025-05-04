@@ -1,45 +1,45 @@
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
-execute as @e[tag=main_room] as @n[sort=nearest,limit=1,tag=!main_room,tag=clear] run function dgen:generation/base_gen/v1/place with storage file
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=3}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=3}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=3}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=3}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=3}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=3}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=3}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=3}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=2}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=1}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=1}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=1}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=1}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=1}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=1}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=1}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=1}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=1}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear,scores={Step=1}] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path

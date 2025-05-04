@@ -22,3 +22,5 @@ scoreboard objectives add RNG1 dummy
 #This is for pos
 scoreboard objectives add PosX dummy
 scoreboard objectives add PosZ dummy
+
+function dungeon:number

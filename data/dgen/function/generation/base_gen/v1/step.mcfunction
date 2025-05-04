@@ -8,7 +8,11 @@ execute as @e[tag=south] at @s run function dgen:generation/base_gen/v1/place_ro
 execute as @e[tag=east] at @s run function dgen:generation/base_gen/v1/place_room/east
 execute as @e[tag=west] at @s run function dgen:generation/base_gen/v1/place_room/west
 
+
+
 execute as @e[tag=north] at @s unless block ~ ~ ~ air run kill @s
 execute as @e[tag=south] at @s unless block ~ ~ ~ air run kill @s
 execute as @e[tag=east] at @s unless block ~ ~ ~ air run kill @s
 execute as @e[tag=west] at @s unless block ~ ~ ~ air run kill @s
+
+execute as @e[tag=clear] at @s run scoreboard players add @s Step 1
