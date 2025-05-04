@@ -29,4 +29,5 @@ fill 132 -37 126 5 -37 1 air replace
 fill 132 -38 126 5 -38 1 air replace
 fill 132 -39 126 5 -39 1 air replace
 fill 132 -40 126 5 -40 1 air replace
+
 kill @e[tag=clear]
