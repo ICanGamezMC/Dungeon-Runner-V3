@@ -1,1 +1,2 @@
 execute if block ~ ~ ~ air unless block ~ ~-1 ~ air run setblock ~ ~ ~ fire
+execute unless entity @e[tag=flame_sacrafice_particle,distance=..5] run summon armor_stand ~ ~ ~ {Invisible:1b,NoBasePlate:1b,Small:1b,Tags:["flame_sacrafice_particle","rotate"]}

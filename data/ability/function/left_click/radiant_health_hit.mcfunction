@@ -1,0 +1,2 @@
+summon marker ~ ~ ~ {Tags:["radiant_health"]}
+execute unless entity @e[tag=radiant_health_particle,distance=..5] run summon armor_stand ~ ~ ~ {Invisible:1b,NoBasePlate:1b,Small:1b,Tags:["radiant_health_particle","rotate"]}

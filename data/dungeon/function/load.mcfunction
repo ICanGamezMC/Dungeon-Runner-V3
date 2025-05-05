@@ -24,3 +24,6 @@ scoreboard objectives add PosX dummy
 scoreboard objectives add PosZ dummy
 
 function dungeon:number
+
+#This is for Timers
+scoreboard objectives add Timer dummy
