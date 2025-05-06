@@ -5,3 +5,4 @@ execute store result score @s Health_RegenADD run data get entity @s Inventory[{
 execute store result score @s Mana_RegenADD run data get entity @s Inventory[{Slot:102b}].components.minecraft:custom_data."Mana Regen"
 execute store result score @s LuckADD run data get entity @s Inventory[{Slot:102b}].components.minecraft:custom_data.Luck
 execute store result score @s WisdomADD run data get entity @s Inventory[{Slot:102b}].components.minecraft:custom_data.Wisdom
+# Chestplate get data from custom data stats
