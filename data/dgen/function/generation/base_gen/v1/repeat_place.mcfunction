@@ -43,3 +43,8 @@ execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point
 execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
 execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
 execute as @e[tag=start_point] at @s as @e[sort=nearest,limit=1,tag=!start_point,tag=clear] run function dgen:generation/base_gen/v1/place with storage file:path
+
+# Why is there so many repeat commands? dunno... gonna fix that up later
+# But this repeat places all the structures needed from closest to farthest
+# and from highest step to smallest step, this is to have an entrance
+# is each room not get bugged and generate without one

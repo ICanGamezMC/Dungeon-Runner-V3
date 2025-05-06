@@ -16,3 +16,7 @@ $execute as @s[tag=small_room_east] at @s run place template dgen:level/$(text)/
 $execute as @s[tag=small_room_west] at @s run place template dgen:level/$(text)/small_room_west ~ ~ ~
 
 kill @s
+
+#This is the final thing for placing the actual structures, 
+#then it will kill the entity spawning to move onto the next entity and save on space
+# The macro is used by the storage command to call which folder is being used

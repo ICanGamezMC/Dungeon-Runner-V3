@@ -9,5 +9,9 @@ execute as @e[tag=clear] store result score @s PosX run data get entity @s Pos[0
 execute as @e[tag=clear] store result score @s PosZ run data get entity @s Pos[2]
 
 function dgen:generation/base_gen/v1/repeat_tp
-function dgen:generation/base_gen/v1/spawn_start
 function dgen:generation/base_gen/v1/spawn_start with storage file:path
+#This is the very end step
+#
+# Step one kills all entities not needed
+# step two gets position and multiplies it by 8
+# step three is tp the entity to the new position and start spawn:start

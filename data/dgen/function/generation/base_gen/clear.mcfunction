@@ -31,3 +31,5 @@ fill 132 -39 126 5 -39 1 air replace
 fill 132 -40 126 5 -40 1 air replace
 
 kill @e[tag=clear]
+#This function clears all blocks in a set position, that position is pretty large but working on a better fix for this
+#This also kills all clear entities for the new level
