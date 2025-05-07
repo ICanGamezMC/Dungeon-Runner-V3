@@ -1,16 +1,8 @@
 say loaded Dungeon Runner
 
+#This loads the world
+execute unless entity @e[tag=World] run function dungeon:load_world/load_world
 
-#This is gamerule functions
-gamerule doFireTick false
-gamerule randomTickSpeed 0
-gamerule showDeathMessages false
-gamerule spawnRadius 0
-gamerule mobGriefing false
-gamerule keepInventory true
-gamerule doMobSpawning false
-gamerule sendCommandFeedback false
-gamerule doImmediateRespawn true
 
 #regen function
 function dungeon:player_stats/regen
@@ -30,3 +22,9 @@ function dungeon:number
 
 #This is for Timers
 scoreboard objectives add Timer dummy
+
+
+
+
+
+
