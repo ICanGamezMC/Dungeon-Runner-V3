@@ -7,3 +7,6 @@ function ability:trigger_ability
 execute if entity @e[tag=load_rooms] run function dgen:generation/base_gen/v1/repeat_place
 
 execute as @a at @s as @s[gamemode=adventure,y=-59,dy=1] run tp @s 58 -35 -29
+
+#This is for the world ticks, lots of if cases to stop lag!
+function dungeon:world_tick/tick
