@@ -1,5 +1,5 @@
 say loaded Dungeon Runner
-
+gamerule randomTickSpeed 0
 #This loads the world
 execute unless entity @e[tag=World] run function dungeon:load_world/load_world
 
