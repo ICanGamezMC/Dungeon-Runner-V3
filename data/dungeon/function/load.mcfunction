@@ -23,7 +23,8 @@ function dungeon:number
 #This is for Timers
 scoreboard objectives add Timer dummy
 
-
+#This loads in cooldown
+schedule function dungeon:player_stats/cooldown 1s
 
 
 

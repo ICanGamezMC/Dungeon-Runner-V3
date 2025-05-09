@@ -19,5 +19,6 @@ scoreboard objectives add LuckADD dummy
 scoreboard objectives add WisdomADD dummy
 
 scoreboard objectives add DamageMath dummy
+scoreboard objectives add Cooldown dummy
 
 #This should be loaded in every /reload

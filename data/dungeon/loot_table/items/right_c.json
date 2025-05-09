@@ -48,6 +48,28 @@
                   "color": "gray",
                   "italic": false
                 },
+                {
+                  "text": "Mana Cost: ",
+                  "extra": [
+                    {
+                      "text": "15",
+                      "color": "aqua"
+                    }
+                  ],
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "Cooldown: ",
+                  "extra": [
+                    {
+                      "text": "5s",
+                      "color": "green"
+                    }
+                  ],
+                  "color": "dark_gray",
+                  "italic": false
+                },
                 "",
                 {
                   "text": "Common",
