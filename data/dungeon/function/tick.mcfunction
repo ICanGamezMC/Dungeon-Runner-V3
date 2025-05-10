@@ -14,3 +14,18 @@ execute as @a at @s as @s[gamemode=adventure,y=-59,dy=1] run tp @s 58 -35 -29
 
 #This is for the world ticks, lots of if cases to stop lag!
 function dungeon:world_tick/tick
+
+
+
+##
+#  This is for dungeon intro 
+## 
+#This is for 
+execute as @e[tag=Door_Intro] at @s run function dungeon:start_dungeon/intro/door_opening
+execute as @e[tag=Door_Intro] at @s run function dungeon:start_dungeon/intro/door_opening
+execute as @e[tag=Door_Intro] at @s run function dungeon:start_dungeon/intro/door_opening
+execute as @e[tag=Door_Intro] at @s run function dungeon:start_dungeon/intro/door_opening
+execute as @e[tag=Chest_Top_End] at @s run function dungeon:end_dungeon/chest/opening
+execute as @e[tag=Chest_Top_End] at @s run function dungeon:end_dungeon/chest/opening
+execute as @e[tag=Chest_Top_End] at @s run function dungeon:end_dungeon/chest/opening
+execute as @e[tag=Chest_Top_End] at @s run function dungeon:end_dungeon/chest/opening
