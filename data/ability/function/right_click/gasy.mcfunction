@@ -10,3 +10,4 @@ scoreboard players add @s Cooldown 10
 #This is the visuals
 
 
+playsound minecraft:entity.experience_orb.pickup record @s ~ ~ ~ 100 0 1

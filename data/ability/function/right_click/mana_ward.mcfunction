@@ -10,3 +10,5 @@ scoreboard players add @s Cooldown 5
 #This is the visuals
 
 particle minecraft:dust_color_transition{from_color:[0.0,0.0,0.99],to_color:[1.0,1.0,1.0],scale:1} ~ ~ ~ 1 1 1 0 10 normal @a
+
+playsound minecraft:entity.experience_orb.pickup record @s ~ ~ ~ 100 0 1

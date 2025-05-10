@@ -8,3 +8,5 @@ function ability:special_abilities/left_click/flame_sacrafice
 
 #RIGHT CLICK ABILITIES
 function ability:special_abilities/right_click/gas_poison
+execute as @e[tag=Multi_Hit] at @s run function ability:special_abilities/right_click/multi_hit
+execute as @e[tag=FireBall] at @s run function ability:special_abilities/right_click/fire_ball
