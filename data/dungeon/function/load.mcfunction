@@ -26,6 +26,6 @@ scoreboard objectives add Timer dummy
 #This loads in cooldown
 schedule function dungeon:player_stats/cooldown 1s
 
-
-
-
+#This is for in dungeon tag and out of dungeon tag
+tag @a add Out_Dungeon
+tag @a remove In_Dungeon
