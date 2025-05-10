@@ -13,8 +13,8 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Generic Item",
-                "color": "white",
+                "text": "Whatever",
+                "color": "blue",
                 "italic": false
               },
               "conditions": []
@@ -23,28 +23,39 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "● test for the description",
+                  "text": "──",
+                  "extra": [
+                    {
+                      "text": " Stats ",
+                      "extra": [
+                        {
+                          "text": "───────",
+                          "color": "gray"
+                        }
+                      ],
+                      "color": "white"
+                    }
+                  ],
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "  new line here",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "  another",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "  ",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "  space up above",
-                  "color": "gray",
+                  "text": "⚔ ",
+                  "extra": [
+                    {
+                      "text": "Base Damage: ",
+                      "extra": [
+                        {
+                          "text": "5",
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  "color": "yellow",
                   "italic": false
                 },
                 {
@@ -56,7 +67,7 @@
                   "text": "🔥Left Click:",
                   "extra": [
                     {
-                      "text": " Vampire",
+                      "text": " Stunning",
                       "color": "yellow"
                     }
                   ],
@@ -64,19 +75,63 @@
                   "italic": false
                 },
                 {
-                  "text": "● Gain 1 health for",
+                  "text": "● Stops mobs in their",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "   every hit",
+                  "text": "   track for 15 seconds",
                   "color": "gray",
                   "italic": false
                 },
                 "",
                 {
-                  "text": "Common",
-                  "color": "white",
+                  "text": "🔥Right Click:",
+                  "extra": [
+                    {
+                      "text": " Pumpkin Blast",
+                      "color": "yellow"
+                    }
+                  ],
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "● Shoot a pumpkin",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "   dealing 5 damage in 6 blocks",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Mana Cost: ",
+                  "extra": [
+                    {
+                      "text": "20",
+                      "color": "aqua"
+                    }
+                  ],
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "Cooldown: ",
+                  "extra": [
+                    {
+                      "text": "8s",
+                      "color": "green"
+                    }
+                  ],
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "Rare",
+                  "color": "blue",
                   "bold": true,
                   "italic": false
                 }
@@ -96,7 +151,7 @@
                   {
                     "type": "minecraft:attack_damage",
                     "id": "minecraft:",
-                    "amount": 0,
+                    "amount": 5,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
@@ -125,22 +180,31 @@
                 "Mana": 0,
                 "Mana Regen": 0,
                 "Luck": 0,
-                "Wisdom": 0
+                "Wisdom": 0,
+                "Ability": 7
               }
             },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "dungeon:custom_item/generic_item",
+                "minecraft:item_model": "dungeon:custom_item/whatever",
                 "minecraft:enchantments": {
                   "levels": {
-                    "ability:vampire": 1
+                    "ability:stun": 1
                   },
                   "show_in_tooltip": false
                 },
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:unbreakable": {
                   "show_in_tooltip": false
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 9999
                 }
               },
               "conditions": []

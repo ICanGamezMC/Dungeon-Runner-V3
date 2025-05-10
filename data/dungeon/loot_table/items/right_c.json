@@ -31,7 +31,7 @@
                   "text": "🔥Right Click:",
                   "extra": [
                     {
-                      "text": " Pumpkin Blast",
+                      "text": " Heart Attack",
                       "color": "yellow"
                     }
                   ],
@@ -39,12 +39,12 @@
                   "italic": false
                 },
                 {
-                  "text": "● Shoot a pumpkin",
+                  "text": "● Gain strength 3 but",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "   dealing 5 damage in 6 blocks",
+                  "text": "   a random chance to just die",
                   "color": "gray",
                   "italic": false
                 },
@@ -52,7 +52,7 @@
                   "text": "Mana Cost: ",
                   "extra": [
                     {
-                      "text": "20",
+                      "text": "13",
                       "color": "aqua"
                     }
                   ],
@@ -63,7 +63,7 @@
                   "text": "Cooldown: ",
                   "extra": [
                     {
-                      "text": "8s",
+                      "text": "6s",
                       "color": "green"
                     }
                   ],
@@ -123,7 +123,7 @@
                 "Mana Regen": 0,
                 "Luck": 0,
                 "Wisdom": 0,
-                "Ability": 7
+                "Ability": 6
               }
             },
             {
