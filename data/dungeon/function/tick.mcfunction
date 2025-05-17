@@ -20,7 +20,7 @@ function dungeon:world_tick/tick
 execute as @e[type=minecraft:interaction,nbt={interaction:{}}] at @s run function dungeon:load_level/interactions
 
 #This is for starting a dungeon
-execute at @e[tag=Entrance] if entity @a[distance=..6] run function dungeon:start_dungeon/start
+execute at @e[tag=Entrance] if entity @a[distance=..5] run function dungeon:start_dungeon/start
 
 ##
 #  This is for dungeon intro 
