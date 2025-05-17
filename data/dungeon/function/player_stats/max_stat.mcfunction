@@ -9,7 +9,8 @@ scoreboard players set @s Luck 1
 scoreboard players set @s Wisdom 1
 
 #This calls functions to get data from items and armor to apply to the players max stats
-function dungeon:player_stats/max_stats/weapons
+execute if items entity @s weapon.* #swords run function dungeon:player_stats/max_stats/weapons
+execute if items entity @s weapon.* stick run function dungeon:player_stats/max_stats/weapons
 function dungeon:player_stats/max_stats/add
 function dungeon:player_stats/max_stats/chestplate
 function dungeon:player_stats/max_stats/add

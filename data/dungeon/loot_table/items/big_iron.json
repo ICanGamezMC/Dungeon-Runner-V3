@@ -6,14 +6,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:chainmail_boots",
           "weight": 1,
           "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Whatever",
+                "text": "very couul chestpalte",
                 "color": "blue",
                 "italic": false
               },
@@ -23,51 +23,15 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "──",
-                  "extra": [
-                    {
-                      "text": " Stats ",
-                      "extra": [
-                        {
-                          "text": "───────",
-                          "color": "gray"
-                        }
-                      ],
-                      "color": "white"
-                    }
-                  ],
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "⚔ ",
-                  "extra": [
-                    {
-                      "text": "Base Damage: ",
-                      "extra": [
-                        {
-                          "text": "5",
-                          "color": "white",
-                          "italic": false
-                        }
-                      ],
-                      "color": "gray",
-                      "italic": false
-                    }
-                  ],
-                  "color": "yellow",
-                  "italic": false
-                },
-                {
                   "text": "──────────────",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "🔥Left Click:",
+                  "text": "🔥Full Set Bonus: ",
                   "extra": [
                     {
-                      "text": " Stunning",
+                      "text": "Hunter Grass",
                       "color": "yellow"
                     }
                   ],
@@ -75,57 +39,13 @@
                   "italic": false
                 },
                 {
-                  "text": "● Stops mobs in their",
+                  "text": "● Gain speed only when touching",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "   track for 15 seconds",
+                  "text": "   grass.... Scary!",
                   "color": "gray",
-                  "italic": false
-                },
-                "",
-                {
-                  "text": "🔥Right Click:",
-                  "extra": [
-                    {
-                      "text": " Pumpkin Blast",
-                      "color": "yellow"
-                    }
-                  ],
-                  "color": "gold",
-                  "italic": false
-                },
-                {
-                  "text": "● Shoot a pumpkin",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "   dealing 5 damage in 6 blocks",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "Mana Cost: ",
-                  "extra": [
-                    {
-                      "text": "20",
-                      "color": "aqua"
-                    }
-                  ],
-                  "color": "dark_gray",
-                  "italic": false
-                },
-                {
-                  "text": "Cooldown: ",
-                  "extra": [
-                    {
-                      "text": "8s",
-                      "color": "green"
-                    }
-                  ],
-                  "color": "dark_gray",
                   "italic": false
                 },
                 "",
@@ -151,7 +71,7 @@
                   {
                     "type": "minecraft:attack_damage",
                     "id": "minecraft:",
-                    "amount": 5,
+                    "amount": 0,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
@@ -174,38 +94,14 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "Health": 0,
-                "Health Regen": 0,
-                "Defense": 0,
+                "Health": 12,
+                "Health Regen": 1,
+                "Defense": 30,
                 "Mana": 0,
                 "Mana Regen": 0,
                 "Luck": 0,
                 "Wisdom": 0,
-                "Ability": 7
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "dungeon:custom_item/whatever",
-                "minecraft:enchantments": {
-                  "levels": {
-                    "ability:stun": 1
-                  },
-                  "show_in_tooltip": false
-                },
-                "minecraft:enchantment_glint_override": false,
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
-                },
-                "minecraft:food": {
-                  "nutrition": 0,
-                  "saturation": 0,
-                  "can_always_eat": true
-                },
-                "minecraft:consumable": {
-                  "consume_seconds": 9999
-                }
+                "Ability": 1
               },
               "conditions": []
             }
