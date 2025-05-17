@@ -1,3 +1,4 @@
+effect give @s blindness 3 10 true
 time set night
 kill @e[type=item]
 

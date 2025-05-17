@@ -12,6 +12,8 @@ execute as @s[scores={Timer=300}] run weather clear 99999d
 
 
 #This is to tp players to spawn again
-execute as @s[scores={Timer=291}] run tp @a[tag=In_Dungeon] 58 -35 -29
+execute as @s[scores={Timer=291}] run tag @a add Out_Dungeon
+execute as @s[scores={Timer=291}] run tag @a remove In_Dungeon
+execute as @s[scores={Timer=291}] run tp @a[tag=Out_Dungeon] 58 -35 -29
 #This is for resetting the animation
 tp @s[scores={Timer=310..}] ^ ^ ^ -45 0

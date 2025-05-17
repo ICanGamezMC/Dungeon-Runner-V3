@@ -1,7 +1,7 @@
 # Add extra commands you want here!
 kill @e[tag=LEVEL]
 summon marker 0 0 0 {Tags:["srn","srs","sre","srw","lorn","lors","lore","lorw","larn","lars","lare","larw","LEVEL"]}
-data modify storage file:path text set value "demo"
+data modify storage file:path text set value "dgen:level/demo"
 function dgen:generation/base_gen/v1/load
 
 # This is the //DEMO MAP// with //GENERATION VERSION 1//
