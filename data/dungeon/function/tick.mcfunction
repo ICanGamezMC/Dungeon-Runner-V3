@@ -17,6 +17,9 @@ function dungeon:world_tick/tick
 
 
 
+execute as @e[type=minecraft:interaction,nbt={interaction:{}}] at @s run function dungeon:load_level/interactions
+
+
 ##
 #  This is for dungeon intro 
 ## 
