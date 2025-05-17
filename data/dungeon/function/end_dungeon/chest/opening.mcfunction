@@ -10,6 +10,9 @@ scoreboard players add @s Timer 1
 execute as @s[scores={Timer=300}] run time set noon
 execute as @s[scores={Timer=300}] run weather clear 99999d
 
+#this is for loot
+execute as @s[scores={Timer=60}] run function dungeon:end_dungeon/chest/loot_table with storage file:loot
+
 
 #This is to tp players to spawn again
 execute as @s[scores={Timer=291}] run tag @a add Out_Dungeon
