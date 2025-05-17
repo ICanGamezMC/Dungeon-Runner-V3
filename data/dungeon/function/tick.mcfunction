@@ -16,9 +16,11 @@ execute as @a at @s as @s[gamemode=adventure,y=-59,dy=1] run tp @s 58 -35 -29
 function dungeon:world_tick/tick
 
 
-
+#This is for selecting the level
 execute as @e[type=minecraft:interaction,nbt={interaction:{}}] at @s run function dungeon:load_level/interactions
 
+#This is for starting a dungeon
+execute at @e[tag=Entrance] if entity @a[distance=..6] run function dungeon:start_dungeon/start
 
 ##
 #  This is for dungeon intro 
