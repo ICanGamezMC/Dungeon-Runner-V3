@@ -22,7 +22,11 @@ function dungeon:mobs/spawning/tick
 execute as @e[type=minecraft:interaction,nbt={interaction:{}}] at @s run function dungeon:load_level/interactions
 
 #This is for starting a dungeon
-execute at @e[tag=Entrance] if entity @a[distance=..5] run function dungeon:start_dungeon/start
+execute if entity @e[tag=Distance] at @e[tag=Entrance] if entity @a[distance=..5] run function dungeon:start_dungeon/start
+
+execute unless entity @e[tag=Distance] at @e[tag=Dungeon_Room_Main] run particle squid_ink ~ ~ ~ 0.2 1 0.2 0 2
+execute unless entity @e[tag=Distance] at @e[tag=Dungeon_Room_Main] if entity @a[distance=..2] run function dungeon:end_dungeon/start
+
 
 ##
 #  This is for dungeon intro 
