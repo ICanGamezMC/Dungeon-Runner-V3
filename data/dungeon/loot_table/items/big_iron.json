@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_boots",
+          "name": "minecraft:chainmail_helmet",
           "weight": 1,
           "quality": 1,
           "functions": [

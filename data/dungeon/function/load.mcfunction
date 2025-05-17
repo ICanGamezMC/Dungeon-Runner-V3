@@ -29,3 +29,10 @@ schedule function dungeon:player_stats/cooldown 1s
 #This is for in dungeon tag and out of dungeon tag
 tag @a add Out_Dungeon
 tag @a remove In_Dungeon
+
+
+#This is for full set bonus
+scoreboard objectives add Full_Set_Bonus dummy
+
+#This is for error Tests
+scoreboard objectives add error dummy
