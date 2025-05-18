@@ -2,6 +2,7 @@
 execute as @s[scores={Timer=1..290}] run tp @a[tag=In_Dungeon] @e[tag=Chest_Camera,limit=1,sort=nearest]
 tp @s[scores={Timer=..180}] ~ ~ ~ ~ ~-.5
 execute as @s[scores={Timer=50..290}] run particle minecraft:trial_spawner_detection ~ ~ ~ 1 1 1 0 2
+execute as @s[scores={Timer=1}] run playsound minecraft:entity.polar_bear.ambient_baby record @a ~ ~ ~ 100 1 1
 #This is for the timer 
 scoreboard players add @s Timer 1
 
