@@ -9,6 +9,7 @@ gamerule keepInventory true
 gamerule doMobSpawning false
 gamerule sendCommandFeedback false
 gamerule doImmediateRespawn true
+gamerule doDaylightCycle false
 
 #This loads in the spawn
 place template dgen:level/world_base/part6 -10 -51 -54
@@ -16,7 +17,26 @@ place template dgen:level/world_base/part2 -10 -40 -54
 place template dgen:level/world_base/part1 38 -40 -54
 
 
+reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #This is important for the world, keeps data in and loads in the world correctly
-summon marker 0 0 0 {Tags:["World"]}
+execute if block 85 -39 -7 minecraft:bedrock run summon marker 0 0 0 {Tags:["World"]}
 
 

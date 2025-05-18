@@ -32,6 +32,8 @@ execute unless entity @e[tag=Distance] as @e[tag=Dungeon_Room_Main,scores={Timer
 execute unless entity @e[tag=Distance] at @e[tag=Dungeon_Room_Main] run particle squid_ink ~ ~ ~ 0.2 1 0.2 0 2
 execute unless entity @e[tag=Distance] at @e[tag=Dungeon_Room_Main] if entity @a[distance=..2] as @a at @s run function dungeon:end_dungeon/start
 
+#This load in world
+execute unless entity @e[tag=World] run function dungeon:load_world/load_world
 
 ##
 #  This is for dungeon intro 
