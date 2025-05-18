@@ -12,9 +12,9 @@ gamerule doImmediateRespawn true
 gamerule doDaylightCycle false
 
 #This loads in the spawn
-place template dgen:level/world_base/part6 -10 -51 -54
-place template dgen:level/world_base/part2 -10 -40 -54
-place template dgen:level/world_base/part1 38 -40 -54
+place template dungeongen:level/world_base/part6 -10 -51 -54
+place template dungeongen:level/world_base/part2 -10 -40 -54
+place template dungeongen:level/world_base/part1 38 -40 -54
 
 
 reload

@@ -8,8 +8,8 @@ execute as @e[tag=west] at @s if block ~ ~ ~ air run kill @s
 execute as @e[tag=clear] store result score @s PosX run data get entity @s Pos[0]
 execute as @e[tag=clear] store result score @s PosZ run data get entity @s Pos[2]
 
-function dgen:generation/base_gen/v1/repeat_tp
-function dgen:generation/base_gen/v1/spawn_start with storage file:path
+function dungeongen:generation/base_gen/v1/repeat_tp
+function dungeongen:generation/base_gen/v1/spawn_start with storage file:path
 #This is the very end step
 #
 # Step one kills all entities not needed

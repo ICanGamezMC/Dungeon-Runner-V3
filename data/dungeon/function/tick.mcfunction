@@ -4,7 +4,7 @@
 execute as @a as @s run function dungeon:player_stats/tick
 function ability:trigger_ability
 #This is generation for v1 gen, works on the last step of loading rooms
-execute if entity @e[tag=load_rooms] run function dgen:generation/base_gen/v1/repeat_place
+execute if entity @e[tag=load_rooms] run function dungeongen:generation/base_gen/v1/repeat_place
 
 
 #This is for players who die or get out of map ;)
