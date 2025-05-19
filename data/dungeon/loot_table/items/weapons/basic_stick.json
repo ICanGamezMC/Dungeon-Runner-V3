@@ -6,14 +6,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:carved_pumpkin",
+          "name": "minecraft:stick",
           "weight": 1,
           "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Generic Item",
+                "text": "Basic Stick",
                 "color": "white",
                 "italic": false
               },
@@ -23,32 +23,94 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
+                  "text": "● A basic stick to get you through",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "  hard times!",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "──",
+                  "extra": [
+                    {
+                      "text": " Stats ",
+                      "extra": [
+                        {
+                          "text": "───────",
+                          "color": "gray"
+                        }
+                      ],
+                      "color": "white"
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "⚔ ",
+                  "extra": [
+                    {
+                      "text": "Base Damage: ",
+                      "extra": [
+                        {
+                          "text": "2",
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "text": "❤ ",
+                  "extra": [
+                    {
+                      "text": "Health: ",
+                      "extra": [
+                        {
+                          "text": "2",
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "text": "✎ ",
+                  "extra": [
+                    {
+                      "text": "Mana: ",
+                      "extra": [
+                        {
+                          "text": "5",
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  "color": "aqua",
+                  "italic": false
+                },
+                {
                   "text": "──────────────",
                   "color": "gray",
                   "italic": false
                 },
-                {
-                  "text": "🔥Full Set Bonus: ",
-                  "extra": [
-                    {
-                      "text": "Hunter Grass",
-                      "color": "yellow"
-                    }
-                  ],
-                  "color": "gold",
-                  "italic": false
-                },
-                {
-                  "text": "● Gain speed only when touching",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "   grass.... Scary!",
-                  "color": "gray",
-                  "italic": false
-                },
-                "",
                 {
                   "text": "Common",
                   "color": "white",
@@ -71,7 +133,7 @@
                   {
                     "type": "minecraft:attack_damage",
                     "id": "minecraft:",
-                    "amount": 0,
+                    "amount": 2,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
@@ -94,24 +156,20 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "Health": 0,
+                "Health": 2,
                 "Health Regen": 0,
                 "Defense": 0,
-                "Mana": 0,
+                "Mana": 5,
                 "Mana Regen": 0,
                 "Luck": 0,
                 "Wisdom": 0,
-                "Ability": 1
+                "Ability": 0
               }
             },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "dungeon:custom_item/generic_item",
-                "minecraft:equippable": {
-                  "slot": "feet"
-                },
-                
+                "minecraft:item_model": "dungeon:custom_item/basic_stick",
                 "minecraft:enchantments": {
                   "levels": {
                     "ability:null": 1

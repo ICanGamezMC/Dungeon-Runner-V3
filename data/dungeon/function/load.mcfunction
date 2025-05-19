@@ -1,5 +1,5 @@
-tellraw @a ["",{"text":"--------------------------","bold":true,"color":"black"},{"text":"\n"},{"text":"Dungeon Runner Datapack V3.0","bold":true,"color":"gold"},{"text":"\n"},{"text":"This is beta testing only, msg me online to fix bugs or other stuff","color":"gray"},{"text":"\n"},{"text":"DEMO VERSION 1.3","bold":true,"color":"gray"},{"text":"\n"},{"text":"--------------------------","bold":true,"color":"black"}]
-give @a netherite_sword 1
+tellraw @a ["",{"text":"--------------------------","bold":true,"color":"black"},{"text":"\n"},{"text":"Dungeon Runner Datapack V3.0","bold":true,"color":"gold"},{"text":"\n"},{"text":"This is beta testing only, msg me online to fix bugs or other stuff","color":"gray"},{"text":"\n"},{"text":"DEMO VERSION 1.4","bold":true,"color":"gray"},{"text":"\n"},{"text":"--------------------------","bold":true,"color":"black"}]
+
 
 #regen function
 function dungeon:player_stats/regen

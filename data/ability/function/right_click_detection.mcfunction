@@ -8,4 +8,7 @@ execute if items entity @s weapon.mainhand *[minecraft:custom_data~{Ability:6b}]
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{Ability:7b}] if entity @s[scores={Cooldown=..0,Mana=20..}] run function ability:right_click/pumpkin_blast
 
 
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{Ability:661s}] run function ability:right_click/health_p1
+
 advancement revoke @s only dungeon:rightclick

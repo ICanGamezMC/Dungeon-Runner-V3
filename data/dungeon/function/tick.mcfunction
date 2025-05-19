@@ -26,11 +26,11 @@ execute if entity @e[tag=Distance] at @e[tag=Entrance] if entity @a[distance=..5
 
 
 #This is for ending a dungeon
-execute unless entity @e[tag=Distance] as @e[tag=Dungeon_Room_Main] if entity @a[tag=In_Dungeon] run scoreboard players add @s Timer 1
-execute unless entity @e[tag=Distance] as @e[tag=Dungeon_Room_Main,scores={Timer=1}] if entity @a[tag=In_Dungeon] run tellraw @a {"text":"Dungeon Portal Is Opened","bold":true,"color":"light_purple","hoverEvent":{"action":"show_text","contents":[{"text":"Enter the starting room to complete dungeon","bold":true,"color":"dark_gray"}]}}
-execute unless entity @e[tag=Distance] as @e[tag=Dungeon_Room_Main,scores={Timer=1}] if entity @a[tag=In_Dungeon] run playsound minecraft:block.end_portal.spawn record @a ~ ~ ~ 100 2 1
-execute unless entity @e[tag=Distance] at @e[tag=Dungeon_Room_Main] run particle squid_ink ~ ~ ~ 0.2 1 0.2 0 2
-execute unless entity @e[tag=Distance] at @e[tag=Dungeon_Room_Main] if entity @a[distance=..2] as @a at @s run function dungeon:end_dungeon/start
+execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Dungeon_Room_Main] if entity @a[tag=In_Dungeon] run scoreboard players add @s Timer 1
+execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Dungeon_Room_Main,scores={Timer=1}] if entity @a[tag=In_Dungeon] run tellraw @a {"text":"Dungeon Portal Is Opened","bold":true,"color":"light_purple","hoverEvent":{"action":"show_text","contents":[{"text":"Enter the starting room to complete dungeon","bold":true,"color":"dark_gray"}]}}
+execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Dungeon_Room_Main,scores={Timer=1}] if entity @a[tag=In_Dungeon] run playsound minecraft:block.end_portal.spawn record @a ~ ~ ~ 100 2 1
+execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main] run particle squid_ink ~ ~ ~ 0.2 1 0.2 0 2
+execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main] if entity @a[distance=..2] as @a at @s run function dungeon:end_dungeon/start
 
 #This load in world
 execute unless entity @e[tag=World] run function dungeon:load_world/load_world

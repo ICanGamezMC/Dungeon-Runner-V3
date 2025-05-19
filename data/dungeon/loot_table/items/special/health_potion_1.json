@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Health Potion",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Common",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 9999
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:item_model": "dungeon:custom_item/special/health_potion_1"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "Ability": 661,
+                "Dungeon": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

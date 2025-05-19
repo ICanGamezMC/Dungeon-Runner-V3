@@ -1,1 +1,28 @@
-{"pools":[]}
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeon:items/special/health_potion_1",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": -2,
+                "max": 1
+              },
+              "function": "minecraft:set_count",
+              "add": false
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:entities/zombie_horse"
+}

@@ -1,4 +1,5 @@
 #This is to set up player camera to chest and play animation
+execute as @s[scores={Timer=1}] run clear @a *[minecraft:custom_data~{Dungeon:1b}]
 execute as @s[scores={Timer=1..290}] run tp @a[tag=In_Dungeon] @e[tag=Chest_Camera,limit=1,sort=nearest]
 tp @s[scores={Timer=..180}] ~ ~ ~ ~ ~-.5
 execute as @s[scores={Timer=50..290}] run particle minecraft:trial_spawner_detection ~ ~ ~ 1 1 1 0 2
