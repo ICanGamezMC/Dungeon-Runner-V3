@@ -14,7 +14,8 @@ Support for custom armor, weapons, items, food, and blocks will be in this versi
 We will have a item generator here to produce more standard items without spell errors. 
 There will also be a key design for playablility and progression in this version, as the previous version you would only have access to one level. 
 There will be beta testing to make sure players enjoy the datapack long after an update happens.
-
+There is also an independent item generator for this project called anvil https://github.com/ParkersOnGit/Anvil
+This is where you can generate items.
 
 ## Use of code
 Publishing this code or compiling it without proper permision and without any code changes will result in a takedown request,
