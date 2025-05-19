@@ -10,6 +10,7 @@ gamerule doMobSpawning false
 gamerule sendCommandFeedback false
 gamerule doImmediateRespawn true
 gamerule doDaylightCycle false
+gamerule doMobLoot false
 
 #This loads in the spawn
 place template dungeongen:level/world_base/part6 -10 -51 -54
