@@ -1,4 +1,16 @@
-
+execute as @s store result score @s RNG1 run random value 1..20
 playsound minecraft:entity.experience_orb.pickup record @a ~ ~ ~ 100 0 1
 
-tellraw @a {"text":"Loot would show up here","bold":true,"color":"gold"}
+
+
+
+execute as @s[scores={RNG1=1..3}] run tellraw @s {"text":"Adventurer's Boots","bold":true,"color":"white"}
+execute as @s[scores={RNG1=1..3}] run loot give @s loot dungeon:items/level/1/adventurers_boots
+execute as @s[scores={RNG1=3..6}] run tellraw @s {"text":"Adventurer's Chestplate","bold":true,"color":"white"}
+execute as @s[scores={RNG1=3..6}] run loot give @s loot dungeon:items/level/1/adventurers_chestplate
+execute as @s[scores={RNG1=7..11}] run tellraw @s {"text":"Adventurer's Helmet","bold":true,"color":"white"}
+execute as @s[scores={RNG1=7..11}] run loot give @s loot dungeon:items/level/1/adventurers_helmet
+execute as @s[scores={RNG1=12..15}] run tellraw @s {"text":"Adventurer's Leggings","bold":true,"color":"white"}
+execute as @s[scores={RNG1=12..15}] run loot give @s loot dungeon:items/level/1/adventurers_leggings
+execute as @s[scores={RNG1=16..20}] run tellraw @s {"text":"Wooden Blade","bold":true,"color":"white"}
+execute as @s[scores={RNG1=16..20}] run loot give @s loot dungeon:items/level/1/wooden_blade
