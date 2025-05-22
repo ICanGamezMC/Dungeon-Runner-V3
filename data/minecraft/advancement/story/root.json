@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "no": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancements.adventure.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:map"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.adventure.root.title"
+    }
+  },
+  "requirements": [],
+  "sends_telemetry_event": true
+}
