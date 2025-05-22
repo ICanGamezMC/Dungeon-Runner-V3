@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot",
+      "components": {
+        "minecraft:item_model": "minecraft:acacia_log"
+      }
+    },
+    "title": {
+      "text": "{ Start Your Journey }",
+      "color": "gold",
+      "shadow_color": 6816515,
+      "bold": true
+    },
+    "description": {
+      "text": "Found a portal, go ahead and find out what's on the other side"
+    },
+    "background": "minecraft:stone",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "nothing": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
