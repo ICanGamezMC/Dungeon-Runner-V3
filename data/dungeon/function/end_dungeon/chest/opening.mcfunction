@@ -7,6 +7,7 @@ execute as @s[scores={Timer=1}] run playsound minecraft:entity.polar_bear.ambien
 #This is for the timer 
 scoreboard players add @s Timer 1
 
+function dungeon:end_dungeon/unlock
 
 #This is to reset world to normal
 execute as @s[scores={Timer=300}] run time set noon
