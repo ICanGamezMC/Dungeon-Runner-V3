@@ -13,7 +13,8 @@
       "bold": true
     },
     "description": {
-      "text": "Found a portal, go ahead and find out what's on the other side"
+      "text": "Found a portal, go ahead and find out what's on the other side",
+      "color": "gray"
     },
     "background": "dungeon:textures/item/custom_item/special/bg1.png",
     "frame": "challenge",

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget",
+      "components": {
+        "minecraft:item_model": "minecraft:acacia_sapling"
+      }
+    },
+    "title": {
+      "text": "Complete Floor : 1",
+      "color": "green",
+      "bold": true
+    },
+    "description": {
+      "text": "That floor was infected...",
+      "color": "gray"
+    }
+  },
+  "parent": "extradungeon:story",
+  "criteria": {
+    "no": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget",
+      "components": {
+        "minecraft:item_model": "minecraft:acacia_sapling"
+      }
+    },
+    "title": {
+      "text": "Complete Floor : 2",
+      "color": "green",
+      "bold": true
+    },
+    "description": {
+      "text": "Most people couldn't survive that floor!",
+      "color": "gray"
+    }
+  },
+  "parent": "extradungeon:story/floors/1",
+  "criteria": {
+    "no": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
