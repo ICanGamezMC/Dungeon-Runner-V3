@@ -1,3 +1,8 @@
+#This is for a tutorial ppl
+execute as @s[scores={Timer=1}] run execute if entity @a[tag=Tutorial] run tellraw @s {"text":"Congrats on beating the tutorial","bold":true,"color":"dark_blue"}
+execute as @s[scores={Timer=1}] run execute if entity @a[tag=Tutorial] run scoreboard players set @s Step 0
+execute as @s[scores={Timer=2}] run execute if entity @a[tag=Tutorial] run tag @a remove Tutorial
+
 #This is to set up player camera to chest and play animation
 execute as @s[scores={Timer=1}] run clear @a *[minecraft:custom_data~{Dungeon:1b}]
 execute as @s[scores={Timer=1..290}] run tp @a[tag=In_Dungeon] @e[tag=Chest_Camera,limit=1,sort=nearest]

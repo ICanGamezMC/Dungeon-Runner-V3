@@ -1,4 +1,5 @@
 
+effect give @a saturation infinite 100 true
 
 # This is for keeping the players stats alive and running, also keep the player aline with custom health
 execute as @a as @s run function dungeon:player_stats/tick
@@ -31,9 +32,14 @@ execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Dun
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Dungeon_Room_Main,scores={Timer=1}] if entity @a[tag=In_Dungeon] run playsound minecraft:block.end_portal.spawn record @a ~ ~ ~ 100 2 1
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main] run particle squid_ink ~ ~ ~ 0.2 1 0.2 0 2
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main] if entity @a[distance=..2] as @a at @s run function dungeon:end_dungeon/start
+execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main] run execute as @a at @s if entity @s[tag=Tutorial,scores={Step=3}] run scoreboard players set @s Step 4
 
 #This load in world
 execute unless entity @e[tag=World] run function dungeon:load_world/load_world
+
+#This is for tutorials
+function dungeon:tutorial
+
 
 ##
 #  This is for dungeon intro 
