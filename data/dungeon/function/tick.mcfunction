@@ -57,3 +57,10 @@ execute as @e[tag=Chest_Top_End] at @s run function dungeon:end_dungeon/chest/op
 
 #This is for first time players
 execute as @a unless entity @s[tag=First_Join] run function dungeon:player_stats/new_player
+
+
+
+
+
+#This is debug mode
+function admin:debugs/major_info
