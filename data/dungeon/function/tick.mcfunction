@@ -33,7 +33,7 @@ execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Dun
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main] run particle squid_ink ~ ~ ~ 0.2 1 0.2 0 2
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main] if entity @a[distance=..2] as @a at @s run function dungeon:end_dungeon/start
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main] run execute as @a at @s if entity @s[tag=Tutorial,scores={Step=3}] run scoreboard players set @s Step 4
-
+execute unless entity @e[tag=Distance] as @e[tag=enemy] run effect give @s minecraft:glowing
 #This load in world
 execute unless entity @e[tag=World] run function dungeon:load_world/load_world
 

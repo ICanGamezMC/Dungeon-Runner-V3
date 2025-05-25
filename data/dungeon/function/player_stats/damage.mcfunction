@@ -1,6 +1,9 @@
 #This is to make sure the player doesn't die from natural damamge
 execute if entity @s[scores={Damage=1..}] run effect give @s instant_health 10 200 true
 
+#This is for regen delay
+execute as @a if entity @s[scores={Damage=1..}] run scoreboard players set @s Regen_Timer 3
+
 #This is applying the defense
 execute if entity @s[scores={Damage=1..}] run scoreboard players operation @s DamageMath = @s Defense
 execute if entity @s[scores={Damage=1..}] run scoreboard players operation @s DamageMath /= NUMBER 10
