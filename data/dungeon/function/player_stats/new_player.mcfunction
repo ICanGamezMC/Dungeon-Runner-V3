@@ -8,6 +8,9 @@ scoreboard players set @s Regen_Timer 1
 #This should be called when a player joins the game
 effect give @s minecraft:saturation infinite 100 true
 
+#This should be an attribute for not taking any real damage
+attribute @s minecraft:armor base set 10000
+
 #This is for giving items and advancements, pretty snazzy right?
 loot give @s loot dungeon:items/weapons/basic_stick
 advancement grant @s only extradungeon:story
