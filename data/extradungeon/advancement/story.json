@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:gold_ingot",
       "components": {
-        "minecraft:item_model": "minecraft:acacia_log"
+        "minecraft:item_model": "dungeon:custom_item/marker/yellow_1"
       }
     },
     "title": {

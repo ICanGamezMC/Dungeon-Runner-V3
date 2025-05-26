@@ -1,0 +1,208 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Flame Seeker Scroll",
+                "color": "green",
+                "italic": false
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "● This lets the player summon",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "  the flame in their heart",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "──",
+                  "extra": [
+                    {
+                      "text": " Stats ",
+                      "extra": [
+                        {
+                          "text": "───────",
+                          "color": "gray"
+                        }
+                      ],
+                      "color": "white"
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "✎ ",
+                  "extra": [
+                    {
+                      "text": "Mana: ",
+                      "extra": [
+                        {
+                          "text": "10",
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  "color": "aqua",
+                  "italic": false
+                },
+                {
+                  "text": "──────────────",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "🔥Right Click:",
+                  "extra": [
+                    {
+                      "text": " ~FIRA BAWL",
+                      "color": "yellow"
+                    }
+                  ],
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "● Summon a fire ball that",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "   damages mobs for 2 seconds",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Mana Cost: ",
+                  "extra": [
+                    {
+                      "text": "8",
+                      "color": "aqua"
+                    }
+                  ],
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "Cooldown: ",
+                  "extra": [
+                    {
+                      "text": "4s",
+                      "color": "green"
+                    }
+                  ],
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "Uncommon",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "minecraft:",
+                    "amount": 0,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "Health": 0,
+                "Health Regen": 0,
+                "Defense": 0,
+                "Mana": 10,
+                "Mana Regen": 0,
+                "Luck": 0,
+                "Wisdom": 0,
+                "Ability": 5
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dungeon:custom_item/scroll/flame_seeker_scroll",
+                "minecraft:enchantments": {
+                  "levels": {
+                    "ability:null": 1
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 9999
+                }
+              },
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "functions": [],
+      "conditions": []
+    }
+  ]
+}

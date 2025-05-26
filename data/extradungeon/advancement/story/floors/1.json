@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:gold_nugget",
       "components": {
-        "minecraft:item_model": "minecraft:acacia_sapling"
+        "minecraft:item_model": "dungeon:custom_item/marker/green_1"
       }
     },
     "title": {

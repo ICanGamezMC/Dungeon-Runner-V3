@@ -1,4 +1,8 @@
 
+#This is for no exp cause its now turned evil
+kill @e[type=experience_orb]
+
+#This is for players getting no hungy
 effect give @a saturation infinite 100 true
 
 # This is for keeping the players stats alive and running, also keep the player aline with custom health
