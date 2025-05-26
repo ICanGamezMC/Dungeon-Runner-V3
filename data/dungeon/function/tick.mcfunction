@@ -29,6 +29,8 @@ execute as @e[type=minecraft:interaction,nbt={interaction:{}}] at @s run functio
 #This is for starting a dungeon
 execute if entity @e[tag=Distance] at @e[tag=Entrance] if entity @a[distance=..5] run function dungeon:start_dungeon/start
 
+#This is for extra dungeon tick features
+function extradungeon:tick
 
 #This is for ending a dungeon
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Dungeon_Room_Main] if entity @a[tag=In_Dungeon] run scoreboard players add @s Timer 1
