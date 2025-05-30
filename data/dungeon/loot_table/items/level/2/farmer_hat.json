@@ -1,0 +1,201 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carved_pumpkin",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Farmer Hat",
+                "color": "green",
+                "italic": false
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "● Made from 100% real ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "  farmers",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "──",
+                  "extra": [
+                    {
+                      "text": " Stats ",
+                      "extra": [
+                        {
+                          "text": "───────",
+                          "color": "gray"
+                        }
+                      ],
+                      "color": "white"
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "⚔ ",
+                  "extra": [
+                    {
+                      "text": "Base Damage: ",
+                      "extra": [
+                        {
+                          "text": "1",
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "text": "❤ ",
+                  "extra": [
+                    {
+                      "text": "Health: ",
+                      "extra": [
+                        {
+                          "text": "7",
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "text": "──────────────",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "🔥Full Set Bonus: ",
+                  "extra": [
+                    {
+                      "text": "Hunter Grass",
+                      "color": "yellow"
+                    }
+                  ],
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "● Gain speed only when touching",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "   grass.... Scary!",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "Uncommon",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "minecraft:",
+                    "amount": 0,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "Health": 7,
+                "Health Regen": 0,
+                "Defense": 0,
+                "Mana": 0,
+                "Mana Regen": 0,
+                "Luck": 0,
+                "Wisdom": 0,
+                "Ability": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dungeon:custom_item/pumpkin/farming_hat",
+                "minecraft:equippable": {
+                  "slot": "head"
+                },
+                
+                "minecraft:enchantments": {
+                  "levels": {
+                    "ability:null": 1
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              },
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "functions": [],
+      "conditions": []
+    }
+  ]
+}

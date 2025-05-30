@@ -25,7 +25,10 @@ scoreboard objectives add Regen_Timer dummy
 #This loads in cooldown
 schedule function dungeon:player_stats/cooldown 1s
 
-
+#This is for players exp
+scoreboard objectives add Experience dummy
+scoreboard objectives add Experience_ADD dummy
+scoreboard objectives add Level dummy
 
 #This is for full set bonus
 scoreboard objectives add Full_Set_Bonus dummy
