@@ -21,4 +21,4 @@ execute unless entity @s[scores={Health=..0}] if entity @s[scores={Damage=31..}]
 execute if entity @s[scores={Damage=..0}] run scoreboard players set @s Damage 0
 execute if entity @s[scores={Health=..0}] if entity @s[scores={Damage=1..}] run scoreboard players set @s Damage 0
 execute if entity @s[scores={Health=..0}] run kill @s
-execute if entity @s[scores={Health=..0}] run scoreboard players set @s Health 1000
+execute if entity @s[scores={Health=..0}] run scoreboard players operation @s Health += @s MaxHealth

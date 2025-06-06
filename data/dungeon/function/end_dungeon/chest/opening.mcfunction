@@ -1,4 +1,5 @@
 #This is for a tutorial ppl
+execute as @s[scores={Timer=1}] run effect clear @a
 execute as @s[scores={Timer=1}] run execute if entity @a[tag=Tutorial] run tellraw @s {"text":"Congrats on beating the tutorial","bold":true,"color":"dark_blue"}
 execute as @s[scores={Timer=1}] run execute if entity @a[tag=Tutorial] run scoreboard players set @s Step 0
 execute as @s[scores={Timer=2}] run execute if entity @a[tag=Tutorial] run tag @a remove Tutorial
