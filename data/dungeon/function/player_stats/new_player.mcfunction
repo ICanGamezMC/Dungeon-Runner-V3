@@ -1,3 +1,6 @@
+gamemode adventure @s
+
+#This is scoreboards
 scoreboard players set @s Health 100
 scoreboard players set @s Defense 100
 scoreboard players set @s Mana 100
@@ -5,11 +8,14 @@ scoreboard players set NUMBER 10 10
 scoreboard players set @s DamageMath 1
 scoreboard players set @s Cooldown 1
 scoreboard players set @s Regen_Timer 1
+scoreboard players set @s Experience 0
+scoreboard players set @s Level 0
 #This should be called when a player joins the game
 effect give @s minecraft:saturation infinite 100 true
 
-#This should be an attribute for not taking any real damage
-attribute @s minecraft:armor base set 10000
+#This is to stop the player from dying naturally
+attribute @s minecraft:max_health base set 999999999
+
 
 #This is for giving items and advancements, pretty snazzy right?
 loot give @s loot dungeon:items/weapons/basic_stick
@@ -21,3 +27,4 @@ tellraw @s {"text":"Run Tutorial?","bold":true,"color":"dark_blue","clickEvent":
 playsound entity.experience_orb.pickup record @s ~ ~ ~ 100 1 1
 #This is for only ticking once per player
 tag @s add First_Join
+

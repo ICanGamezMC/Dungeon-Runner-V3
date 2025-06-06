@@ -11,8 +11,8 @@ execute if entity @s[tag=Level1] run function dungeongen:levels/built_in/level_1
 execute if entity @s[tag=Level1] run tellraw @a ["",{"text":"Charting For \"","bold":true,"color":"blue"},{"text":" The Forest ","bold":true,"color":"dark_green"},{"text":"\"","bold":true,"color":"blue"}]
 
 
-execute if entity @s[tag=Level2] if entity @e[tag=L1] run function dungeongen:levels/built_in/level_2
-execute if entity @s[tag=Level2] if entity @e[tag=L1] run tellraw @a ["",{"text":"Charting For \"","bold":true,"color":"blue"},{"text":" The Caverns ","bold":true,"color":"dark_green"},{"text":"\"","bold":true,"color":"blue"}]
+execute if entity @s[tag=Level2] if entity @e[tag=L1] if entity @a[sort=nearest,scores={Level=3..}] run function dungeongen:levels/built_in/level_2
+execute if entity @s[tag=Level2] if entity @e[tag=L1] if entity @a[sort=nearest,scores={Level=3..}] run tellraw @a ["",{"text":"Charting For \"","bold":true,"color":"blue"},{"text":" The Caverns ","bold":true,"color":"dark_green"},{"text":"\"","bold":true,"color":"blue"}]
 
 
 

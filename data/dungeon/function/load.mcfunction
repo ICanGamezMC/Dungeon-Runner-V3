@@ -1,5 +1,4 @@
-tellraw @a ["",{"text":"--------------------------","bold":true,"color":"black"},{"text":"\n"},{"text":"Dungeon Runner Datapack V3.0","bold":true,"color":"gold"},{"text":"\n"},{"text":"This is beta testing only, msg me online to fix bugs or other stuff","color":"gray"},{"text":"\n"},{"text":"DEMO VERSION 1.5","bold":true,"color":"gray"},{"text":"\n"},{"text":"--------------------------","bold":true,"color":"black"}]
-
+tellraw @a ["",{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","bold":true,"color":"black"},{"text":"\n"},{"text":"                "},{"text":"\u0040","font":"dungeon:title"},{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"- V3.0 Stable Version.","color":"dark_gray"},{"text":"\n"},{"text":"- Thanks for downloading ","color":"yellow"},{"selector":"@p","color":"yellow"},{"text":"\n"},{"text":"- For New Updates ","bold":true,"color":"#FEAF06"},{"text":"Click Here","bold":true,"color":"#FEAF06","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/icangamez-dungeon-runner"}},{"text":"\n"},{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","bold":true,"color":"black"}]
 
 #regen function
 function dungeon:player_stats/regen

@@ -1,7 +1,8 @@
 execute as @s store result score @s RNG1 run random value 1..20
 execute as @s store result score @s RNG1 run scoreboard players operation @s RNG1 += @s Luck
 playsound minecraft:entity.experience_orb.pickup record @a ~ ~ ~ 100 0 1
-
+execute as @s store result score @s Experience_ADD run random value 14..39
+tellraw @s ["",{"text":"Gained ","bold":true,"color":"white"},{"score":{"name":"@s","objective":"Experience_ADD"},"bold":true,"color":"blue"},{"text":" Experience","bold":true,"color":"white"}]
 
 
 execute as @s[scores={RNG1=1..3}] run tellraw @s {"text":"Flame Seeker Scroll","bold":true,"color":"green"}
