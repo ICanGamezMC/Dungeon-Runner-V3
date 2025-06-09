@@ -4,12 +4,16 @@ kill @e[type=experience_orb]
 
 #This is for players getting no hungy
 effect give @a saturation infinite 100 true
-
+effect clear @a minecraft:weakness
 # This is for keeping the players stats alive and running, also keep the player aline with custom health
 execute as @a as @s run function dungeon:player_stats/tick
 function ability:trigger_ability
 #This is generation for v1 gen, works on the last step of loading rooms
 execute if entity @e[tag=load_rooms] run function dungeongen:generation/base_gen/v1/repeat_place
+
+#This is for those pesky cobblestone and potion items
+kill @e[type=item,nbt={Item:{id:"minecraft:stone"}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:potion"}}]
 
 
 #This is for players who die or get out of map ;)
@@ -64,9 +68,12 @@ execute as @e[tag=Chest_Top_End] at @s run function dungeon:end_dungeon/chest/op
 #This is for first time players
 execute as @a unless entity @s[tag=First_Join] run function dungeon:player_stats/new_player
 
-
-
-
+#This is arrows Damage
+execute as @a[scores={Shot_Arrow=1..}] run data modify entity @n[type=minecraft:arrow] damage set from entity @n[type=minecraft:arrow] weapon.components.minecraft:custom_data.Damage
+execute as @a[scores={Shot_Arrow=1..}] run scoreboard players set @s Shot_Arrow 0
 
 #This is debug mode
 function admin:debugs/major_info
+
+#This is for animated players
+function dungeon:world_tick/animated_players

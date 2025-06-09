@@ -1,6 +1,6 @@
 #This is the basic zombie
 execute as @s[tag=Basic_Skeleton] at @s run function dungeon:mobs/spawning/skeleton/basic_skeleton
-
+execute as @s[tag=Archer] at @s run function dungeon:mobs/spawning/skeleton/archer
 
 
 

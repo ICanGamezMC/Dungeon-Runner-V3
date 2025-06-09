@@ -1,0 +1,171 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Wooden Bow",
+                "color": "white",
+                "italic": false
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "● Made for the shootin",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "──",
+                  "extra": [
+                    {
+                      "text": " Stats ",
+                      "extra": [
+                        {
+                          "text": "───────",
+                          "color": "gray"
+                        }
+                      ],
+                      "color": "white"
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "⚔ ",
+                  "extra": [
+                    {
+                      "text": "Base Damage: ",
+                      "extra": [
+                        {
+                          "text": "3",
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "text": "❤ ",
+                  "extra": [
+                    {
+                      "text": "Health: ",
+                      "extra": [
+                        {
+                          "text": "2",
+                          "color": "white",
+                          "italic": false
+                        }
+                      ],
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "text": "──────────────",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Common",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "minecraft:",
+                    "amount": 0,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "Health": 2,
+                "Health Regen": 0,
+                "Defense": 0,
+                "Mana": 0,
+                "Mana Regen": 0,
+                "Luck": 0,
+                "Wisdom": 0,
+                "Ability": 0,
+                "Damage": 3
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:bow",
+                "minecraft:enchantments": {
+                  "levels": {
+                    "ability:null": 1
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              },
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "functions": [],
+      "conditions": []
+    }
+  ]
+}

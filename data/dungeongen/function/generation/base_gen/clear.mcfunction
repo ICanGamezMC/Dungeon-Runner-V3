@@ -29,7 +29,7 @@ fill 132 -37 126 5 -37 1 air replace
 fill 132 -38 126 5 -38 1 air replace
 fill 132 -39 126 5 -39 1 air replace
 fill 132 -40 126 5 -40 1 air replace
-
+fillbiome 5 -6 10 115 -42 128 minecraft:plains
 kill @e[tag=clear]
 #This function clears all blocks in a set position, that position is pretty large but working on a better fix for this
 #This also kills all clear entities for the new level

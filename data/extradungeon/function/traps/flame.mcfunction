@@ -13,8 +13,8 @@ execute if entity @s[scores={Timer=14}] unless block ~ ~-1 ~ air run particle fl
 execute if entity @s[scores={Timer=15}] unless block ~ ~-1 ~ air run particle flame ~ ~ ~ 0.1 2 0.1 0 13 normal
 execute if entity @s[scores={Timer=16..20}] unless block ~ ~-1 ~ air run particle flame ~ ~ ~ 0.1 1.8 0.1 0 9 normal
 
-execute if entity @s[scores={Timer=1..20}] unless block ~ ~-1 ~ air run playsound block.fire.ambient record @a[distance=..30] ~ ~ ~ 28 1 1
+execute if entity @s[scores={Timer=1..20}] unless block ~ ~-1 ~ air run playsound block.fire.ambient record @a[distance=..10] ~ ~ ~ 7 1 1
 execute if entity @s[scores={Timer=1..20}] unless block ~ ~-1 ~ air run scoreboard players add @a[distance=..1] Damage 12
-execute if entity @s[scores={Timer=1..20}] unless block ~ ~-1 ~ air run playsound entity.player.hurt record @a[distance=..1] ~ ~ ~ 28 1 1
+execute if entity @s[scores={Timer=1..20}] unless block ~ ~-1 ~ air run playsound entity.player.hurt record @a[distance=..1] ~ ~ ~ 7 1 1
 
 execute if entity @s[scores={Timer=65..}] run scoreboard players set @s Timer 0

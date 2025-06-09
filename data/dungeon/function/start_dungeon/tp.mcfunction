@@ -1,5 +1,5 @@
 effect give @s blindness 3 10 true
-time set night
+execute if entity @e[tag=NIGHT] run time set night
 kill @e[type=item]
 
 execute as @a at @s if entity @s[tag=Tutorial,scores={Step=2}] run scoreboard players set @s Step 3

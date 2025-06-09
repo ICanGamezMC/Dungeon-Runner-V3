@@ -7,6 +7,9 @@ scoreboard objectives add Damage minecraft.custom:minecraft.damage_taken
 #This loads all the numbers and scoreboards for players max stats
 function dungeon:player_stats/load_stats
 
+#This is for arrow detect shot
+scoreboard objectives add Shot_Arrow minecraft.used:minecraft.bow
+
 #This is rng
 scoreboard objectives add RNG1 dummy
 
