@@ -184,7 +184,8 @@
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:unbreakable": {
                   "show_in_tooltip": false
-                }
+                },
+                "minecraft:tooltip_style": "minecraft:common"
               },
               "conditions": []
             }

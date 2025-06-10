@@ -42,6 +42,7 @@
                   "can_always_eat": true
                 },
                 "minecraft:hide_additional_tooltip": {},
+                "minecraft:tooltip_style": "minecraft:common",
                 "minecraft:item_model": "dungeon:custom_item/special/health_potion_1"
               }
             },

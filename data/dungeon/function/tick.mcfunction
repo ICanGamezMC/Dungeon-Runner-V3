@@ -12,13 +12,22 @@ function ability:trigger_ability
 execute if entity @e[tag=load_rooms] run function dungeongen:generation/base_gen/v1/repeat_place
 
 #This is for those pesky cobblestone and potion items
-kill @e[type=item,nbt={Item:{id:"minecraft:stone"}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:cobblestone"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:potion"}}]
 
+#This makes things glow!!
+execute unless entity @e[tag=Distance] as @e[tag=enemy] unless entity @s[team=Enemy] run team join Enemy @s
+execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Portal1] run team join Spawn @s
+execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Portal1] run effect give @s invisibility
+
+#This is for the animated portal
+function dungeon:world_tick/portal
 
 #This is for players who die or get out of map ;)
 execute as @a at @s as @s[gamemode=adventure,y=-59,dy=1] run tag @s add Out_Dungeon
 execute as @a at @s as @s[gamemode=adventure,y=-59,dy=1] run tag @s remove In_Dungeon
+execute as @a at @s as @s[gamemode=adventure,y=-59,dy=1] run stopsound @s
+execute as @a at @s as @s[gamemode=adventure,y=-59,dy=1] run playsound minecraft:music_disc.blocks record @s ~ ~ ~ 1000 1 1
 execute as @a at @s as @s[gamemode=adventure,y=-59,dy=1] run tp @s 58 -35 -29
 
 #This is for the world ticks, lots of if cases to stop lag!
@@ -40,6 +49,7 @@ function extradungeon:tick
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Dungeon_Room_Main] if entity @a[tag=In_Dungeon] run scoreboard players add @s Timer 1
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Dungeon_Room_Main,scores={Timer=1}] if entity @a[tag=In_Dungeon] run tellraw @a {"text":"Dungeon Portal Is Opened","bold":true,"color":"light_purple","hoverEvent":{"action":"show_text","contents":[{"text":"Enter the starting room to complete dungeon","bold":true,"color":"dark_gray"}]}}
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] as @e[tag=Dungeon_Room_Main,scores={Timer=1}] if entity @a[tag=In_Dungeon] run playsound minecraft:block.end_portal.spawn record @a ~ ~ ~ 100 2 1
+execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main,scores={Timer=1}] run summon slime ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Glowing:1b,NoAI:1b,Size:1,Tags:["Portal1","clear3","clear2"],attributes:[{id:"minecraft:scale",base:2}]}
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main] run particle squid_ink ~ ~ ~ 0.2 1 0.2 0 2
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main] if entity @a[distance=..2] as @a at @s run function dungeon:end_dungeon/start
 execute unless entity @e[tag=Distance] unless entity @e[tag=enemy] at @e[tag=Dungeon_Room_Main] run execute as @a at @s if entity @s[tag=Tutorial,scores={Step=3}] run scoreboard players set @s Step 4

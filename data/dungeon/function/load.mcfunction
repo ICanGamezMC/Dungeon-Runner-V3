@@ -37,3 +37,11 @@ scoreboard objectives add Full_Set_Bonus dummy
 
 #This is for error Tests
 scoreboard objectives add error dummy
+
+#This is for teams to make people glow
+team add Enemy "Enemy"
+team modify Enemy color red
+team add Spawn "Spawn"
+team modify Spawn color light_purple
+team add Spawn2 "Spawn2"
+team modify Spawn2 color dark_purple

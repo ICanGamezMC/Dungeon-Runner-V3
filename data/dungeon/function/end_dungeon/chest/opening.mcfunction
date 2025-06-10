@@ -1,5 +1,7 @@
 #This is for a tutorial ppl
+execute as @s[scores={Timer=1}] run stopsound @a
 execute as @s[scores={Timer=1}] run effect clear @a
+execute as @s[scores={Timer=1}] run kill @e[tag=clear3]
 execute as @s[scores={Timer=1}] run execute if entity @a[tag=Tutorial] run tellraw @s {"text":"Congrats on beating the tutorial","bold":true,"color":"dark_blue"}
 execute as @s[scores={Timer=1}] run execute if entity @a[tag=Tutorial] run scoreboard players set @s Step 0
 execute as @s[scores={Timer=2}] run execute if entity @a[tag=Tutorial] run tag @a remove Tutorial
@@ -26,6 +28,7 @@ execute as @s[scores={Timer=60}] as @a at @s run function dungeon:end_dungeon/ch
 #This is to tp players to spawn again
 execute as @s[scores={Timer=291}] run tag @a add Out_Dungeon
 execute as @s[scores={Timer=291}] run tag @a remove In_Dungeon
+execute as @s[scores={Timer=291}] run playsound minecraft:music_disc.blocks record @a ~ ~ ~ 1000 1 1
 execute as @s[scores={Timer=291}] run tp @a[tag=Out_Dungeon] 58 -35 -29
 #This is for resetting the animation
 tp @s[scores={Timer=310..}] ^ ^ ^ -45 0

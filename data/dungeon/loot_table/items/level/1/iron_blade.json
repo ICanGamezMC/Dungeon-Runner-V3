@@ -250,7 +250,8 @@
                 },
                 "minecraft:consumable": {
                   "consume_seconds": 9999
-                }
+                },
+                "minecraft:tooltip_style": "minecraft:uncommon"
               },
               "conditions": []
             }

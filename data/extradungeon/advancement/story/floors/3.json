@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget",
+      "components": {
+        "minecraft:item_model": "dungeon:custom_item/marker/green_2"
+      }
+    },
+    "title": {
+      "text": "Complete Floor : 3",
+      "color": "green",
+      "bold": true
+    },
+    "description": {
+      "text": "It burns!!! ",
+      "color": "gray"
+    }
+  },
+  "parent": "extradungeon:story/floors/2",
+  "criteria": {
+    "no": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

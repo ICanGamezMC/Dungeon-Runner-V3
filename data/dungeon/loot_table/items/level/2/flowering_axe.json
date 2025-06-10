@@ -6,15 +6,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick",
+          "name": "minecraft:iron_axe",
           "weight": 1,
           "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Basic Stick",
-                "color": "white",
+                "text": "Flowering Axe",
+                "color": "green",
                 "italic": false
               },
               "conditions": []
@@ -23,12 +23,12 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "● A basic stick to get you through",
+                  "text": "● This axe was crafted under",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "  hard times!",
+                  "text": "  extreme water pressure.",
                   "color": "gray",
                   "italic": false
                 },
@@ -56,7 +56,7 @@
                       "text": "Base Damage: ",
                       "extra": [
                         {
-                          "text": "2",
+                          "text": "7",
                           "color": "white",
                           "italic": false
                         }
@@ -69,13 +69,13 @@
                   "italic": false
                 },
                 {
-                  "text": "❤ ",
+                  "text": "❈ ",
                   "extra": [
                     {
-                      "text": "Health: ",
+                      "text": "Defense: ",
                       "extra": [
                         {
-                          "text": "2",
+                          "text": "-7",
                           "color": "white",
                           "italic": false
                         }
@@ -84,26 +84,7 @@
                       "italic": false
                     }
                   ],
-                  "color": "red",
-                  "italic": false
-                },
-                {
-                  "text": "✎ ",
-                  "extra": [
-                    {
-                      "text": "Mana: ",
-                      "extra": [
-                        {
-                          "text": "5",
-                          "color": "white",
-                          "italic": false
-                        }
-                      ],
-                      "color": "gray",
-                      "italic": false
-                    }
-                  ],
-                  "color": "aqua",
+                  "color": "green",
                   "italic": false
                 },
                 {
@@ -112,8 +93,30 @@
                   "italic": false
                 },
                 {
-                  "text": "Common",
-                  "color": "white",
+                  "text": "🔥Left Click:",
+                  "extra": [
+                    {
+                      "text": " Vampire",
+                      "color": "yellow"
+                    }
+                  ],
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "● Gain 1 health for",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "   every hit",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "Uncommon",
+                  "color": "green",
                   "bold": true,
                   "italic": false
                 }
@@ -133,7 +136,7 @@
                   {
                     "type": "minecraft:attack_damage",
                     "id": "minecraft:",
-                    "amount": 2,
+                    "amount": 7,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
@@ -156,10 +159,10 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "Health": 2,
+                "Health": 0,
                 "Health Regen": 0,
-                "Defense": 0,
-                "Mana": 5,
+                "Defense": -7,
+                "Mana": 0,
                 "Mana Regen": 0,
                 "Luck": 0,
                 "Wisdom": 0,
@@ -169,10 +172,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "dungeon:custom_item/basic_stick",
+                "minecraft:item_model": "dungeon:custom_item/weapon/flowering_axe",
                 "minecraft:enchantments": {
                   "levels": {
-                    "ability:null": 1
+                    "ability:vampire": 1
                   },
                   "show_in_tooltip": false
                 },
@@ -180,7 +183,7 @@
                 "minecraft:unbreakable": {
                   "show_in_tooltip": false
                 },
-                "minecraft:tooltip_style": "minecraft:common"
+                "minecraft:tooltip_style": "minecraft:uncommon"
               },
               "conditions": []
             }
