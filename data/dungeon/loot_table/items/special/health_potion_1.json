@@ -22,7 +22,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Common",
+                  "text": "Dungeon Common",
                   "color": "white",
                   "bold": true,
                   "italic": false

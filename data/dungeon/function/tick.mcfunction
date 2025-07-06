@@ -61,6 +61,12 @@ execute unless entity @e[tag=World] run function dungeon:load_world/load_world
 function dungeon:tutorial
 
 
+
+
+#This is for clearing extra loot giving entities
+execute unless entity @e[tag=LOOT_LOAD] run function dungeon:load_world/entity_pass
+
+
 ##
 #  This is for dungeon intro 
 ## 

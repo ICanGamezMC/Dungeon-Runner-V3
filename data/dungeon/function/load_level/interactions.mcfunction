@@ -5,6 +5,7 @@ execute as @a at @s if entity @s[tag=Tutorial,scores={Step=1}] run scoreboard pl
 #This is the generic "all levels should do this" Function
 kill @e[tag=clear2]
 kill @e[tag=Distance]
+kill @e[tag=LEVEL]
 
 #This is the levels
 execute if entity @s[tag=Level1] run function dungeongen:levels/built_in/level_1

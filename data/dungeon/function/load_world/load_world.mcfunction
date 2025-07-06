@@ -18,7 +18,7 @@ place template dungeongen:level/world_base/part2 -10 -40 -54
 place template dungeongen:level/world_base/part1 38 -40 -54
 place template dungeongen:level/world_base/part3 38 -40 -102
 
-reload
+
 
 
 
@@ -38,6 +38,6 @@ reload
 
 
 #This is important for the world, keeps data in and loads in the world correctly
-execute if block 85 -39 -7 minecraft:bedrock run summon marker 0 0 0 {Tags:["World"]}
+execute if block 85 -39 -7 minecraft:bedrock if entity @e[tag=Player1] if entity @e[tag=Chest_Top_End] run summon marker 0 0 0 {Tags:["World"]}
 
 
