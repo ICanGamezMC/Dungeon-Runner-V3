@@ -1,7 +1,15 @@
 {
-    "pack": {
-      "pack_format": 48,
-      "description": "Made By: ICanGamez"
-    }
+  "pack": {
+    "description": {
+      "text": "Made By ICanGamez",
+      "color": "gold",
+      "bold": true,
+      "italic": false
+    },
+    "pack_format": 34,
+    "supported_formats": [
+      34,
+      46
+    ]
   }
-  
+}

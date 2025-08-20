@@ -6,3 +6,4 @@ execute store result score @s Mana_RegenADD run data get entity @s Inventory[{Sl
 execute store result score @s LuckADD run data get entity @s Inventory[{Slot:102b}].components.minecraft:custom_data.Luck
 execute store result score @s WisdomADD run data get entity @s Inventory[{Slot:102b}].components.minecraft:custom_data.Wisdom
 # Chestplate get data from custom data stats
+

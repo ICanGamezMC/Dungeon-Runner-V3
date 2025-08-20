@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","bold":true,"color":"black"},{"text":"\n"},{"text":"                "},{"text":"\u0040","font":"dungeon:title"},{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"- V3.0 Stable Version.","color":"dark_gray"},{"text":"\n"},{"text":"- Thanks for downloading ","color":"yellow"},{"selector":"@p","color":"yellow"},{"text":"\n"},{"text":"- For New Updates ","bold":true,"color":"#FEAF06"},{"text":"Click Here","bold":true,"color":"#FEAF06","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/icangamez-dungeon-runner"}},{"text":"\n"},{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","bold":true,"color":"black"}]
+tellraw @a ["",{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","bold":true,"color":"black"},{"text":"\n"},{"text":"                "},{"text":"\u0040","font":"dungeon:title"},{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"- V3.01 Stable Version.","color":"dark_gray"},{"text":"\n"},{"text":"- Thanks for downloading ","color":"yellow"},{"selector":"@p","color":"yellow"},{"text":"\n"},{"text":"- For New Updates ","bold":true,"color":"#FEAF06"},{"text":"Click Here","bold":true,"color":"#FEAF06","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/icangamez-dungeon-runner"}},{"text":"\n"},{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","bold":true,"color":"black"}]
 
 #regen function
 function dungeon:player_stats/regen
@@ -26,6 +26,9 @@ scoreboard objectives add Regen_Timer dummy
 
 #This loads in cooldown
 schedule function dungeon:player_stats/cooldown 1s
+
+#This is for weather stuff
+weather clear 99999999999d
 
 #This is for players exp
 scoreboard objectives add Experience dummy
